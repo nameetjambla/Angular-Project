@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+
+
+body
+{
+    padding: 0;
+    margin:0;
+    font-family:Roboto,sans-serif;
+    color:#777 !important;
+}
+.container{
+     margin:20px;
+display: flex;
+}
+
+
+    .mat-list .mat-list-item, .mat-nav-list .mat-list-item, .mat-selection-list .mat-list-item
+      {
+          color: #777;
+    } 
